@@ -1,0 +1,92 @@
+#Container{
+    
+}
+body{
+    font-family: 'FantasqueSansMonoRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+    background-image: url(./gt86.jpg);
+    border-style: dashed;
+    border-radius: 100px;
+}
+h1 {
+    /* font */
+    /* font-family: 'FantasqueSansMonoRegular'; 
+    font-weight: normal; 
+    font-weight: normal; 
+    font-style: normal;  */
+
+    /* 15-pixel margin at the bottom of the heading */
+    margin-bottom: 15px;
+
+    /* changing the size of the font */
+    font-size: 60px;
+
+    /* this will change the color of the font in the heading */
+    color: rgb(129, 216, 72);
+
+    /* ALIGN the text to the CENTER of its element (Div) */
+    text-align: center;
+
+    /* UNDERLINE the text */
+    text-decoration: underline;
+
+    /* changing the background of the heading */
+    background-color: #5e11f414;
+
+}
+p{
+    color: white;
+}
+
+h2 {
+    /* 15pixel margin at the top of all h2 headings */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    /* font-family: 'FantasqueSansMonoRegular'; 
+    font-weight: normal; 
+    font-style: normal;  */
+}
+
+/* h3 heading tags */
+h3 {
+    color: rgb(129, 216, 72);
+
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* all image tags */
+
+img{
+    /* CENTER: a block element in the middle of its enclosing tags, */
+    margin-left: auto;
+    margin-left: auto;
+    display: center;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Contact, ul, li
+{
+    color: yellow;
+        /* text-align: center; */
+        font-size: 35px;
+    
+        /* give an element a solid border */
+        /* border-style: dashed; */
+    
+        /* render the border 5 pixels THICK */
+        border-width: 5px;
+    
+        /* rendering bullets in the content flow */
+        list-style-position: inside;
+
+}
